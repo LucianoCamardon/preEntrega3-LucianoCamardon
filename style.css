@@ -1,0 +1,60 @@
+body{
+    background-color: rgb(170, 73, 170);
+}
+main{
+    display: flex;
+    margin-top: 3%;
+}
+section{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border: 5px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    background-color: rgb(163, 163, 163);
+    width: 30%;
+    height: 500px;
+}
+h2{
+    text-align: center;
+}
+input{
+    width: 100%;
+    height: 20px;
+    text-align: center;
+}
+form button{
+    margin-top: 30px;
+    width: 40%;
+    height: 6%;
+}
+#submitButton{
+    background-color: rgb(184, 45, 184);
+}
+#resetButton{
+    background-color: rgb(185, 185, 185);
+}
+#studentDisplayButton{
+    width: 80%;
+    margin-top: 5px;
+}
+.totalStudents{
+    background-color: rgb(163, 163, 163);
+    border: 3px solid rgb(0,0,0);
+    border-radius: 10px;
+    margin-left: 5%;
+    width: 60%;
+}
+.student{
+    display: flex;
+    align-items: flex-start;
+    background-color: white;
+    border: 1px solid black;
+    height: 20px;
+}
+.student button{
+    margin-left: auto;
+}
+.hidden {
+    display: none;
+}

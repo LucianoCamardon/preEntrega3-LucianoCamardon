@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Alumnos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <section>
+            <form action="">
+                <h1>Registro de Alumnos</h1>
+                <div>
+                    <h3>Nombre y Apellido</h3>
+                    <label for="nombreApellido"></label>
+                    <input type="text" placeholder="Nombre y Apellido" id="studentsNameInput">
+                </div>
+                <div>
+                    <h3>Primera Nota</h3>
+                    <label for="primeraNota"></label>
+                    <input type="text" min="0" max="10" placeholder="Nota 1" class="studentsMarksInput">
+                </div>
+                <div>
+                    <h3>Segunda Nota</h3>
+                    <label for="segundaNota"></label>
+                    <input type="text" min="0" max="10" placeholder="Nota 2" class="studentsMarksInput">
+                </div>
+                <div>
+                    <h3>Tercera Nota</h3>
+                    <label for="terceraNota"></label>
+                    <input type="text" min="0" max="10" placeholder="Nota 3" class="studentsMarksInput">
+                </div>
+    
+                <button type="submit" id="submitButton">Añadir</button>
+                <button type="reset" id="resetButton">Cancelar</button>
+            </form>
+        </section>
+        <div class="totalStudents">
+            <h2>Alumnos</h2>
+            <div class="studentContainer">
+                <div class="student">
+                    <div class="studentData"></div>
+                    <button>Eliminar alumno</button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="main.js"></script>
+</body>
+</html>
